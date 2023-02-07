@@ -13,7 +13,7 @@ domains:
 
 podMonitor:
   # -- If disabled prometheus.io/scrape will be set to true.
-  enabled: true
+  enabled: false
 
 image:
   repository: ghcr.io/shift/domain_exporter
